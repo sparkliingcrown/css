@@ -1,0 +1,79 @@
+sthread1 {
+  position:relative;
+  box-shadow: 5px 5px 20px 5px var(--grey1);
+  border-radius: 2px;
+  margin: 30px auto;
+  width: 375px;
+  display: grid;
+  grid-template-areas:
+    "topper"
+    "thread"
+    "tag:"
+    "bottbar";
+  border: 1px solid var(--light);
+}
+
+sthread1 topper {
+  grid-area: topper;
+  display: block;
+}
+
+sthread1 line1 {
+  display: block;
+  margin: 50px 0px 0px 65px;
+  width: 65%;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid var(--accentgold);
+  padding: 0;
+}
+
+sthread1 line2 {
+  display: block;
+  margin: 0px 0px 50px 65px;
+  width: 65%;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid var(--accentgold);
+  padding: 0;
+}
+
+sthread1 .writing {
+  grid-area: thread;
+  position: relative;
+  text-align: justify;
+  padding: 10px 25px;
+  margin:15px;
+  font-family: var(--fontbody);
+  color: var(--dark);
+}
+
+sthread1 .writing p {
+  text-indent: 15%;
+  line-height: 1.5;
+  padding: 15px 25px 5px 25px;
+}
+
+sthread1 tagspace {
+  position: relative;
+  display: block;
+  padding: -25px 10px 0px 10px;
+  margin-bottom:50px;
+  text-align: center;
+  font: 800 24px var(--fonthead);
+  letter-spacing: 0.5px;
+  font-style: italic;
+  color: var(--dark);
+  text-decoration: underline;
+  text-decoration-color: var(--accentgold);
+}
+
+sthread1 graybar {
+  grid-area: bottbar;
+  display: block;
+  height: 45px;
+  width: 375px;
+  background-color: var(--grey1);
+  border-top: 1px solid var(--light);
+  z-index: 2;
+}
