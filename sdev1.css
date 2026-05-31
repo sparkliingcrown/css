@@ -1,0 +1,90 @@
+sdev1 {
+  position:relative;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--grey3);
+  width: 400px;
+  margin: 0 auto 20px auto;
+  border: 1px solid var(--light);
+}
+
+sdev1 .sdev1-top {
+  display: flex;
+  border: 1px solid var(--light);
+}
+
+sdev1 .sdev1-top-left {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-right: 1px solid var(--light);
+  width: 50px;
+  height: 50px;
+  background: var(--grey2);
+  font-size: 50px;
+  color: var(--accentgroup);
+}
+
+sdev1 .sdev1-top-left i {
+  color: var(--accentash);
+}
+
+sdev1 .sdev1-top-right {
+  padding: 20px;
+  display: flex;
+  font-family: var(--fonthead);
+  font-size: 24px;
+  color: var(--accentgroup);
+  height: 50px;
+  width: 269px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  text-align: left;
+  line-height: 120%;
+  flex-direction: column;
+  font-weight: 600;
+}
+
+sdev1 .sdev1-mid {
+  padding: 20px;
+  display: flex;
+  margin: auto;
+}
+
+sdev1 img.one {
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  object-fit: cover;
+  height: 350px;
+  width: 350px;
+}
+
+sdev1 img.two {
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  object-fit: cover;
+  height: 175px;
+  width: 175px;
+  margin: 3px;
+}
+
+sdev1 img.three {
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  object-fit: cover;
+  height: 110px;
+  width: 110px;
+  margin: 4px;
+}
+
+sdev1 graybar {
+  display: block;
+  height: 45px;
+  width: 400px;
+  background-color: var(--accentash);
+  border-top: 1px solid var(--light);
+  z-index: 2;
+}
