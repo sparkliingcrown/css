@@ -7,7 +7,7 @@ sdev2 {
   border:1px solid var(--light);
   border-radius:2x;
   box-shadow: 2px 2px 10px 2px var(--grey3);
-  background-image: linear-gradient(to bottom, var(--light), var(--accentash));
+  background-image: linear-gradient(to top, var(--accentash), transparent, transparent, transparent);
 }
 
 
