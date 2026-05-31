@@ -10,7 +10,7 @@ sdev1 {
 
 sdev1 .sdev1-top {
   display: flex;
-  border: 1px solid var(--light);
+  border-bottom: 1px solid var(--light);
 }
 
 sdev1 .sdev1-top-left {
