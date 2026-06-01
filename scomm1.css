@@ -113,7 +113,6 @@ scomm1 .scomm1-messages note c {
 scomm1 .scomm1-messages reply {
   color: var(--light);
   font-weight: 900;
-  line-height: 90%;
   background: var(--accentash);
   border: 1px solid var(--accentgroup);
   padding: 8px;
