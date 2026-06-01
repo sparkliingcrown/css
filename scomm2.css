@@ -1,0 +1,144 @@
+scomm2 {
+  position:relative;
+  box-shadow: 5px 5px 20px 5px var(--grey3);
+  border: 1px solid var(--accentgoldtrans);
+  margin: 30px auto;
+  border-radius: 8px;
+  height: 550px;
+  width: 350px;
+  display: grid;
+  grid-template-areas:
+    "rec"
+    "msgs"
+    "bottbar";
+  grid-row-gap: 10px;
+  grid-row: auto auto 105px;
+  background:var(--light);
+  background-image: linear-gradient(to bottom left, transparent, var(--accentash));
+}
+
+scomm2 .scomm2-bottom img {
+  height: 85px;
+  width: 85px;
+  object-fit: cover;
+  position: relative;
+  border-radius: 50%;
+  display: block;
+  margin: -30px auto -25px 20px;
+  z-index: 9;
+  border: 1px solid var(--light);
+  box-shadow: 0px 0px 10px 0px var(--accentash);
+}
+
+scomm2 img.square {
+  border-radius: 8px;
+}
+
+scomm2 .scomm2-top {
+  grid-area: rec;
+  display: block;
+  height: 115px;
+  width: 350px;
+  background-color: var(--light);
+  opacity: 0.60;
+  border-radius: inherit;
+}
+
+scomm2 .scomm2-top recipient {
+  display: block;
+  font-size: 24px;
+  font-family: var(--fonthead);
+  font-weight: 800;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 1px;
+  margin: 25px;
+  opacity: 0.8;
+  color: var(--accentgroup);
+}
+
+scomm2 .scomm2-message {
+  grid-area: msgs;
+  text-align: right;
+  border: 1px solid var(--light);
+  width: 300px;
+  padding: 25px;
+  margin-top: -65px;
+  font-family: var(--fontbody);
+  max-height: 375px;
+  min-height: 375px;
+  background-color: var(--light);
+  border-radius: 12px;
+  font-size: 15px;
+  overflow-y: scroll;
+  z-index: 9;
+}
+
+scomm2 .scomm2-message note {
+  font-size: 14px;
+  color: var(--dark);
+  opacity: 0.75;
+  display: block;
+  text-align: center;
+}
+
+scomm2 .scomm2-message p {
+  color: var(--dark);
+  background: var(--grey3);
+  border: 1px solid var(--grey2);
+  padding: 8px;
+  border-radius: 10px 10px 0px 10px;
+}
+
+scomm2 .scomm2-message b {
+  font-weight: 900;
+  color: var(--accentgold);
+  letter-spacing: -1px;
+}
+
+scomm2 .scomm2-message i {
+  color: var(--accentgroup);
+}
+
+scomm2 .scomm2-message u {
+  color: var(--dark);
+  font-weight: 500;
+  text-decoration-color: var(--accentgold);
+  text-decoration-thickness: 2px;
+}
+
+scomm2 .scomm2-message a {
+  color: var(--accentash);
+  font-weight: 800;
+}
+
+scomm2 .scomm2-bottom {
+  margin-top: -20px;
+}
+
+scomm2 .scomm2-bottom send {
+  color: var(--accentgold);
+  background-color: var(--light);
+  text-align: right;
+  font-size: 16px;
+  font: var(--fontbody);
+  font-weight: 700;
+  letter-spacing: -1px;
+  padding: 12px 25px;
+  border-radius: 6px;
+  border: 1px solid var(--accentgoldtrans);
+  opacity: .65;
+  text-align: center;
+}
+
+scomm2 .scomm2-bottom i {
+  grid-area: bottbar;
+  color: var(--accentgold);
+  font-size: 20px;
+  background-color: var(--light);
+  opacity: 0.75;
+  margin: -10px 9px 25px 125px;
+  padding: 10px 11px;
+  border-radius: 6px;
+  border: 1px solid var(--accentgoldtrans);
+}
