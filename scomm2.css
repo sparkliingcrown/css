@@ -114,6 +114,7 @@ scomm2 .scomm2-message a {
 
 scomm2 .scomm2-bottom {
   margin-top: -20px;
+  height:450px;
 }
 
 scomm2 .scomm2-bottom send {
@@ -124,7 +125,7 @@ scomm2 .scomm2-bottom send {
   font: var(--fontbody);
   font-weight: 700;
   letter-spacing: -1px;
-  padding: 12px 25px;
+  padding: 14px 25px 6px;
   border-radius: 6px;
   border: 1px solid var(--accentgoldtrans);
   opacity: .65;
