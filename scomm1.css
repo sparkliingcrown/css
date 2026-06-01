@@ -140,7 +140,7 @@ scomm1 .scomm1-messages a {
 
 scomm1 .scomm1-bottom {
   position: relative;
-  margin: 15px 0px 15px 0px;
+  margin: 25px 0px;
   z-index: 5;
 }
 
@@ -148,7 +148,7 @@ scomm1 .scomm1-bottom i {
   background: var(--light);
   padding: 13px;
   border-radius: 5px;
-  margin: 5px 15px;
+  margin: 5px 10px 5px 11px;
   color: var(--accentgroup);
 }
 
